@@ -1,0 +1,12 @@
+# 核心依赖
+opencv-python        # 摄像头采集 & 图像处理
+numpy                # 数值运算
+scipy                # ΔE2000 / 数学优化（颜色距离计算）
+scikit-image         # 图像增强 / 分割等（可选）
+
+# 调试 & 可视化
+matplotlib           # 可视化调试（画直方图、颜色分布等）
+jupyterlab           # 如果要交互调试，推荐
+
+# 工程支持
+pillow               # 处理静态图片（jpg/png）
